@@ -4,6 +4,9 @@
 [http://evsegneev.pp.ua/heatmap](http://evsegneev.pp.ua/heatmap/) 
 
 #####Remarks:
+
+Tested in last Chrome, Firefox and IE.
+
 I have used jpicker (first I found in google), not input[type=color], because I want my widget works on IE.
 
 Widget content does not updates via d3.js data but simply redraws. It is simpler, it doesn't need another update function. It doesn't took much time and not even noticeable. And I have stuck at that :)
