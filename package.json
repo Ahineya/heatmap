@@ -1,0 +1,33 @@
+{
+  "name": "heatmap-widget",
+  "version": "0.0.1",
+  "description": "D3.js heatmap calendar widget",
+  "author": "Pavel Evsegneev <pavel@evsegneev.pp.ua>",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "phantomjs": "*",
+    "mocha-phantomjs": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/test.html"
+  },
+  "dependencies": {
+    "chai": "~1.9.1",
+    "mocha-phantomjs": "~3.4.1",
+    "phantomjs": "~1.9.7-9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ahineya/heatmap.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahineya/heatmap/issues"
+  },
+  "homepage": "https://github.com/Ahineya/heatmap"
+}

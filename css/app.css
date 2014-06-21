@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333333;
+	font-family: Roboto, Geneva, Arial, Helvetica, sans-serif;
+	color: #eee;
+    min-width: 480px;
+}
+
+button {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.mcap {
+	text-align: center;
+}
+
+.controls {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid darkslategrey;
+    margin-bottom: 20px;
+}
+
+.controls .wrap {
+    position: relative;
+    height: 40px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.about {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.about a {
+    color: white;
+    padding: 0 3px;
+}
+
+.about a:visited {
+    color: white;
+}
+
+.Icon {
+    margin-top: 3px;
+}
+
+.btn {
+
+    position: relative;
+    vertical-align: top;
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #2980b9;
+    border: 0;
+    border-bottom: 2px solid #2475ab;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #2475ab;
+    box-shadow: inset 0 -2px #2475ab;
+}
+.btn:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+#start-color, #end-color {
+    position: relative;
+    height: 30px;
+    float: left;
+}
