@@ -20,4 +20,4 @@ If not, you can see it result via web runner:
 I really like my top panel with that pretty buttons. So I haven't add more controls
 to change widget's cell size etc.
 
-P.s. if you can tell me, why in heatmap.js:322 variable d has old data - please, mail me on pavel@evsegneev.com
+P.s. if you can tell me, why in heatmap.js:322 variable d has old data - please, mail me to pavel@evsegneev.com
