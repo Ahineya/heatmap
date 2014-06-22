@@ -7,7 +7,7 @@
 
 Tested in last Chrome, Firefox and IE.
 
-I have used jpicker (first I found in google), not input[type=color], because I want my widget works in IE. But sometimes it position are not correct. Reload page if it not fits the controls panel.
+I have used jpicker (first I found in google), not input[type=color], because I want my widget works in IE. But sometimes it position is not correct. Reload page if it not fits the controls panel.
 
 Widget content does not updates via d3.js data but simply redraws. It is simpler, it doesn't need another update function. It doesn't took much time and not even noticeable. And I have stuck at that :)
 
